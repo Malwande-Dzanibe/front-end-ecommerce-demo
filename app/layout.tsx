@@ -46,12 +46,12 @@ export default function RootLayout({
                       </div>
                       <div >
                         <a className='icons' href="https://github.com/Malwande-Dzanibe" target="_blank">
-                        <FaGithub className={"icons-style"}/><h4>github : github.com/Malwande-Dzanibe</h4>
+                        <FaGithub className={"icons-style"}/><h4>github.com/Malwande-Dzanibe</h4>
                         </a>
                       </div>
                       <div  >
                         <a className='icons' href="http://www.linkedin.com/mwlite/in/malwande-dzanibe-3550a0261" target="_blank">
-                        <FaLinkedin className={"icons-style"}/><h4 className='linked'>linkedIn : www.linkedin.com/mwlite/in/malwande-dzanibe</h4>
+                        <FaLinkedin className={"icons-style"}/><h4 className='linked'>www.linkedin.com/mwlite/in/malwande-dzanibe</h4>
                         </a>
                       </div>
                       <div className='line'></div>
