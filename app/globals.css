@@ -66,7 +66,7 @@ body{
     background-color: rgb(23, 165, 231);;
     display: flex;
     justify-content: space-between;
-    padding: 0px 140px;
+    padding: 0px 60px;
     align-items: center;
     position: relative;
 }
@@ -178,6 +178,14 @@ p{
     display: none;
 }
 
+.sub-amount{
+    font-size: 12px;
+}
+
+.sub-title{
+    font-size: 12px;
+}
+
 .cart:hover{
     font-weight: bolder;
     color: wheat;
@@ -258,7 +266,7 @@ p{
     align-items: center;
     font-weight: bold;
     position: absolute;
-    right: 123px;
+    right: 40px;
     top: 6px;
 }
 
@@ -284,7 +292,7 @@ p{
 }
 
 .more-image{
-    min-width: 17vw;
+    min-width: 19vw;
 }
 
 .you-may-also-like-wrapper{
@@ -342,7 +350,7 @@ p{
 
 .on-cart{
     border: 1px solid rgb(199, 199, 199);
-    width: 410px;
+    width: 400px;
     height: 252px;
     display: flex;
     border-radius: 3px;
@@ -566,10 +574,6 @@ footer{
         min-height: 70vh;
     }
 
-    .nav{
-        padding: 0px 10px;
-    }
-
     .sub-total-wrapper{
         display: flex;
         justify-content: center;
@@ -587,6 +591,8 @@ footer{
         padding: 0px 10px;
         min-height: 75vh;
     }
+
+
 }
 
 @media (max-width: 760px){
@@ -698,30 +704,6 @@ footer{
         
     }
 
-    .admin-wrapper{
-        margin-right: 20px;
-    }
-
-    .cart-number{
-        background-color:  rgb(221, 20, 20);
-        color: white;
-        border-radius: 50%;
-        width: 25px;
-        height: 25px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-weight: bold;
-        position: absolute;
-        right: 105px;
-        top: 6px;
-    }
-
-    .cart{
-            font-weight: bolder;
-            transition: all .2s ease;
-    }
-
     .item{
         width: 300px;
         height: 270px;
@@ -797,17 +779,6 @@ footer{
         flex-direction: column;
         padding: 0px 10px;
         min-height: 75vh;
-    }
-
-    .nav{
-        height: 8vh;
-        width: 100%;
-        background-color: rgb(23, 165, 231);;
-        display: flex;
-        justify-content: space-between;
-        padding: 0px 140px;
-        align-items: center;
-        position: relative;
     }
     
 }

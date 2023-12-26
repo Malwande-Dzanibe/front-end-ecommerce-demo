@@ -60,10 +60,10 @@ const Cart = () => {
     <>
     <section className='sub-total-wrapper'>
               <div className='sub-title-wrapper'>
-                  <h4 className="sub-title">{cart.length === 0 ? `` : `Total`}</h4>
+                  <h6 className="sub-title">{cart.length === 0 ? `` : `Total`}</h6>
               </div>
               <div className='sub-amount-wrapper'>
-                  <h4 className={cart.length === 0 ? "sub-amount2" : 'sub-amount'}>{`R ${totalPrice}.00`}</h4>
+                  <h6 className={cart.length === 0 ? "sub-amount2" : 'sub-amount'}>{`R ${totalPrice}.00`}</h6>
               </div>
     </section>
     <div className='check-out-wrapper'>
