@@ -11,5 +11,3 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
-
-// 2023-11-10

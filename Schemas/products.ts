@@ -38,8 +38,6 @@ export const products = {
             name:"quantity",
             title:"Quantity",
             type: "number",
-            options: 
-                {default:"1"}
         },
     ]
 }

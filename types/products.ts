@@ -4,7 +4,6 @@ export type Product = {
     slug:string,
     price:number,
     description: string,
-    qty: number,
     _id:string,
     _updatedAt:string,
     _rev:string,

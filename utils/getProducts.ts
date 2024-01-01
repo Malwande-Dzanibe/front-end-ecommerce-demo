@@ -19,7 +19,6 @@ const getProducts = async  () : Promise<Product[]>=>{
         description,
         _id,
         _createdAt,
-        quantity
     }`)
 }
 
