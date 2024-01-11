@@ -7,5 +7,6 @@ export type Product = {
     _id:string,
     _updatedAt:string,
     _rev:string,
-    _type:string
+    _type:string,
+    qty : number
 }

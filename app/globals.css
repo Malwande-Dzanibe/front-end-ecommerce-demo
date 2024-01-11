@@ -352,7 +352,7 @@ p{
 
 .on-cart{
     border: 1px solid rgb(199, 199, 199);
-    width: 400px;
+    width: 380px;
     height: 252px;
     display: flex;
     border-radius: 3px;
@@ -606,7 +606,7 @@ footer{
     }
 
     .sub-title{
-        margin-right: 100px;
+        margin-right: 70px;
     }
 
     .image{
@@ -728,7 +728,7 @@ footer{
     }
 
     .sub-title{
-        margin-right: 70px;
+        margin-right: 40px;
     }
 
     .image{
@@ -748,10 +748,6 @@ footer{
         flex-direction: column;
         padding: 0px 10px;
         min-height: 75vh;
-    }
-
-    .sub-title{
-        margin-right: 90px;
     }
 
 }
