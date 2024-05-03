@@ -20,8 +20,6 @@ const Cart = () => {
 
   const frontEndAlert = ()=>toast.success("This Is Just A Front End Demo")
 
-  console.log(cart)
-
   return (
     
     <div className='cart-folder'>

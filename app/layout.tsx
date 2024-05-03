@@ -50,8 +50,8 @@ export default function RootLayout({
                         </a>
                       </div>
                       <div  >
-                        <a className='icons' href="http://www.linkedin.com/mwlite/in/malwande-dzanibe-3550a0261" target="_blank">
-                        <FaLinkedin className={"icons-style"}/><h4 className='linked'>www.linkedin.com/mwlite/in/malwande-dzanibe</h4>
+                        <a className='icons' href="https://www.linkedin.com/in/malwande-dzanibe-3550a0261/" target="_blank">
+                        <FaLinkedin className={"icons-style"}/><h4 className='linked'>https://www.linkedin.com/in/malwande-dzanibe-3550a0261/</h4>
                         </a>
                       </div>
                       <div className='line'></div>
